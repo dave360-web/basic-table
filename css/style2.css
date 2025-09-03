@@ -1,0 +1,127 @@
+body {
+    background: #e3f0ff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+form {
+    width: 100%;
+    max-width: 420px;
+}
+
+fieldset {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    border-color:#8b9bae ;
+    padding: 32px 28px 24px 28px;
+    width: 360px;
+}
+
+legend {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #2b4a6f;
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 16px;
+    color: #2b4a6f;
+    font-size: 1rem;
+}
+
+div {
+    display: inline-flex;
+    width: 100%;
+}
+
+#nam {
+    margin-left: 20px;
+}
+
+#me {
+    width: 350px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #bcd0ee;
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    background: #f7fbff;
+    transition: border 0.2s;
+}
+input[type="number"] {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #bcd0ee;
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    background: #f7fbff;
+    transition: border 0.2s;
+}
+input[type="date"] {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #bcd0ee;
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    background: #f7fbff;
+    transition: border 0.2s;
+}
+
+input[type="text"]:focus {
+    border: 1.5px solid #2b4a6f;
+    outline: none;
+}
+
+select {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #bcd0ee;
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    background: #f7fbff;
+    transition: border 0.2s;
+}
+
+select:focus {
+    border: 1.5px solid #2b4a6f;
+    outline: none;
+}
+
+input[type="radio"] {
+    margin-right: 6px;
+    accent-color: #2b4a6f;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px 0;
+    background: #2b4a6f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 18px;
+    transition: background 0.2s;
+}
+
+
+

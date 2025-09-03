@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jotform Sign-up</title>
+    <link rel="stylesheet" href="./css/style5.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2 class="form-title">Email Sign Up Form</h2>
+        <p class="form-subtitle">We would love to be in touch with you! Please sign up to receive emails from us!</p>
+        <p class="form-instruction">Please complete all information below:</p>
+
+        <form class="signup-form">
+            <div class="form-group row">
+                <div class="input-container">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Mr. John Doe" required>
+                </div>
+                <div class="input-container">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name">
+                </div>
+                <div class="input-container">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="input-container">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="input-container">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" placeholder="(000) 000-0000">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address</label>
+                <div class="input-container">
+                    <label for="street-address">Street Address</label>
+                    <input type="text" id="street-address">
+                </div>
+                <div class="input-container">
+                    <label for="street-address-2">Street Address Line 2</label>
+                    <input type="text" id="street-address-2">
+                </div>
+                <div class="form-group row">
+                    <div class="input-container">
+                        <label for="city">City</label>
+                        <input type="text" id="city">
+                    </div>
+                    <div class="input-container">
+                        <label for="state">State / Province</label>
+                        <input type="text" id="state">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="input-container">
+                        <label for="postal">Postal / Zip Code</label>
+                        <input type="text" id="postal">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="comments">Comments, Questions, or Suggestions</label>
+                <textarea id="comments" rows="4"></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
